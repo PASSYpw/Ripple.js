@@ -3,7 +3,7 @@ Waves.js
 
 Adds Material-Design-like waves to elements.
 
-<a href="https://passypw.github.com/Waves.js/demo/">View Demo</a>
+[View Demo](https://passypw.github.com/Waves.js/demo/)
 
 ## Installation
 ```html
