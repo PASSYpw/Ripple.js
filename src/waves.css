@@ -1,0 +1,38 @@
+/*! Waves.js v1.3.0
+ * The MIT License (MIT)
+ * Copyright (c) 2017  */
+
+.has-waves {
+	position: relative;
+	overflow: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.waves {
+	display: block;
+	position: absolute;
+	pointer-events: none;
+	border-radius: 50%;
+
+	-webkit-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+
+	background: #fff;
+	opacity: 1;
+}
+
+.waves-animate {
+	-webkit-animation: waves;
+	-o-animation: waves;
+	animation: waves;
+}
+
+@keyframes waves {
+	100% {
+		opacity: 0;
+		transform: scale(2);
+	}
+}

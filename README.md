@@ -1,41 +1,47 @@
-Ripple.js
+Waves.js
 =========
 
-Adds Material style ripple to buttons
+Adds Material-Design-like waves to elements.
 
-#### <a href="https://jakiestfu.github.com/Ripple.js/demo/">View Demo</a>
+<a href="https://passypw.github.com/Waves.js/demo/">View Demo</a>
 
 ## Installation
 ```html
-<link href="stylesheet" type="text/css" href="ripple.min.css">
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript" src="ripple.min.js"></script>
+<link href="ripple.css" rel="stylesheet">
+<script src="jquery.js"></script>
 ```
 or
 ```bash
-$ bower install ripplejs
+$ npm install wavesjs
+```
+or
+```bash
+$ yarn add wavesjs
 ```
 
+## Dependencies
+This library needs jQuery to work.
+
 ## Usage
-Include jQuery, the ripple.css, and ripple.js into your page. Then upon initialization, you can activate ripple as follows:
+After including jQuery, the `waves.css` and `waves.js` into your page, you can activate waves as follows:
 
 ```javascript
 $.ripple(".btn", {
-	debug: false, // Turn Ripple.js logging on/off
-	on: 'mousedown', // The event to trigger a ripple effect
+	debug: false, // Enable / Disable debug logging.
+	on: 'mousedown', // The event to trigger a wave (valid jQuery event).
 
-	opacity: 0.4, // The opacity of the ripple
-	color: "auto", // Set the background color. If set to "auto", it will use the text color
-	multi: false, // Allow multiple ripples per element
+	opacity: 0.3, // Initial opacity of wave-
+	color: "auto", // Set the background color. If set to "auto", it will use the text color-
+	multi: true, // Allow multiple waves at a time per element.
 
-	duration: 0.7, // The duration of the ripple
+	duration: 0.3, // The duration of the animation
+	
+	// Filter function for modifying the speed of the wave
+	rate: function (pxPerSecond) {
+		return pxPerSecond;
+	},
 
-	// Filter function for modifying the speed of the ripple
-	rate: function(pxPerSecond) {
-        return pxPerSecond;
-    },
-
-	easing: 'linear' // The CSS3 easing function of the ripple
+	easing: 'linear' // The CSS3 easing function of the wave
 });
 ```
 
@@ -45,10 +51,15 @@ Elements can be overridden with their own default options:
 ```
 
 ## Building
+First of all you should download and install [Yarn](https://yarnpkg.com):
 ```bash
-$ npm install
-$ npm run-script build
-$ npm run-script build-watch # To watch assets
+$ sudo npm install -g yarn
+```
+
+Then you can initialize the project:
+```bash
+$ yarn
+$ npm run build
 ```
 
 ## Caveats
@@ -57,4 +68,4 @@ $ npm run-script build-watch # To watch assets
     * `transform: translate3d(0,0,0)`
 
 ## License
-MIT
+[MIT](LICENSE)
