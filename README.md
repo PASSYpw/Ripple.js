@@ -12,11 +12,11 @@ Adds Material-Design-like waves to elements.
 ```
 or
 ```bash
-$ npm install wavesjs
+$ npm install @passypw/wavesjs
 ```
 or
 ```bash
-$ yarn add wavesjs
+$ yarn add @passypw/wavesjs
 ```
 
 ## Dependencies
