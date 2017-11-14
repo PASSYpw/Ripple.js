@@ -1,21 +1,23 @@
 {
-	"name": "Waves.js",
+	"name": "@passypw/wavesjs",
 	"description": "Adds Material-Design-like waves to elements.",
-	"authors": [
-		{
-			"name": "Scrumplex",
-			"email": "contact@scrumplex.net",
-			"url": "https://scrumplex.net"
-		},
+	"author": {
+		"name": "Scrumplex",
+		"email": "contact@scrumplex.net",
+		"url": "https://scrumplex.net"
+	},
+	"contributors": [
 		{
 			"name": "jakie8@gmail.com",
 			"email": "contact@scrumplex.net"
 		}
 	],
-	"version": "1.3.0",
+	"main": "dist/waves.js",
+	"version": "2.0.0",
+	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/PASSYpw/Waves.js.git"
+		"url": "git+https://github.com/PASSYpw/Waves.js.git"
 	},
 	"scripts": {
 		"build": "gulp"
@@ -31,5 +33,9 @@
 		"gulp-uglify": "^3.0.0",
 		"postcss-csso": "^3.0.0",
 		"pump": "^1.0.2"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/PASSYpw/Waves.js/issues"
+	},
+	"homepage": "https://github.com/PASSYpw/Waves.js#readme"
 }
