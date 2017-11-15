@@ -1,5 +1,4 @@
-/*! Waves.js v1.3.0
- * The MIT License (MIT)
+/*! Waves.js v2.0.1
  * Copyright (c) 2017  */
 
 ;(function ($, document, Math) {
@@ -15,7 +14,7 @@
 
 		self.selector = selector;
 		self.defaults = {
-			debug: true,
+			debug: false,
 			on: 'mousedown',
 
 			opacity: 0.3,
