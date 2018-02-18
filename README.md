@@ -3,7 +3,7 @@
 
 Adds Material-Design-like waves to elements.
 
-[View Demo](https://passypw.github.com/Waves.js/demo.html)
+[View Demo](https://passypw.github.io/Waves.js/demo.html)
 
 ## Installation
 ```html
