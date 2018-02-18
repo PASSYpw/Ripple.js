@@ -1,4 +1,4 @@
-<img src="https://github.com/PASSYpw/PASSY/blob/master/logo.png" alt="Logo" align="left" /> Waves.js
+<img src="https://github.com/PASSYpw/Waves.js/blob/master/logo.png" alt="Logo" align="left" /> Waves.js
 ======
 
 Adds Material-Design-like waves to elements.
