@@ -2,7 +2,7 @@
 	"name": "@passypw/wavesjs",
 	"description": "Adds Material-Design-like waves to elements.",
 	"author": {
-		"name": "Scrumplex",
+		"name": "Sefa Eyeoglu",
 		"email": "contact@scrumplex.net",
 		"url": "https://scrumplex.net"
 	},
@@ -13,7 +13,7 @@
 		}
 	],
 	"main": "dist/waves.js",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

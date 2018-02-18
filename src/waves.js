@@ -61,7 +61,7 @@
 
 				// Give the user the ability to change the rate of the animation
 				// based on element width
-				if (settings.rate && typeof settings.rate == "function") {
+				if (settings.rate && typeof settings.rate === "function") {
 
 					// rate = pixels per second
 					var rate = Math.round(wavesElem.width() / settings.duration);

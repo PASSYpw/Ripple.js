@@ -1,14 +1,21 @@
-Waves.js
-=========
+<img src="https://github.com/PASSYpw/PASSY/blob/master/logo.png" alt="Logo" align="left" /> Waves.js
+======
 
 Adds Material-Design-like waves to elements.
 
-[View Demo](https://passypw.github.com/Waves.js/demo/)
+[View Demo](https://passypw.github.com/Waves.js/demo.html)
 
 ## Installation
 ```html
-<link href="ripple.css" rel="stylesheet">
+...
+<head>
+...
+<link href="dist/ripple.css" rel="stylesheet">
+</head>
+...
 <script src="jquery.js"></script>
+<script src="dist/waves.js"></script>
+...
 ```
 or
 ```bash
