@@ -1,41 +1,42 @@
 {
-	"name": "@passypw/wavesjs",
-	"description": "Adds Material-Design-like waves to elements.",
-	"author": {
-		"name": "Sefa Eyeoglu",
-		"email": "contact@scrumplex.net",
-		"url": "https://scrumplex.net"
-	},
-	"contributors": [
-		{
-			"name": "jakie8@gmail.com",
-			"email": "contact@scrumplex.net"
-		}
-	],
-	"main": "dist/waves.js",
-	"version": "2.0.2",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/PASSYpw/Waves.js.git"
-	},
-	"scripts": {
-		"build": "gulp"
-	},
-	"dependencies": {
-		"jquery": "^3.2.1"
-	},
-	"devDependencies": {
-		"autoprefixer": "^7.1.6",
-		"gulp": "^3.9.1",
-		"gulp-postcss": "^7.0.0",
-		"gulp-sourcemaps": "^2.6.1",
-		"gulp-uglify": "^3.0.0",
-		"postcss-csso": "^3.0.0",
-		"pump": "^1.0.2"
-	},
-	"bugs": {
-		"url": "https://github.com/PASSYpw/Waves.js/issues"
-	},
-	"homepage": "https://github.com/PASSYpw/Waves.js#readme"
+    "name": "@passypw/wavesjs",
+    "description": "Adds Material-Design-like waves to elements.",
+    "author": {
+        "name": "Sefa Eyeoglu",
+        "email": "contact@scrumplex.net",
+        "url": "https://scrumplex.net"
+    },
+    "contributors": [
+        {
+            "name": "Jacob Kelley",
+            "email": "jakie8@gmail.com",
+            "url": "http://jakiestfu.com"
+        }
+    ],
+    "main": "dist/waves.js",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PASSYpw/Waves.js.git"
+    },
+    "scripts": {
+        "build": "gulp"
+    },
+    "dependencies": {
+        "jquery": "^3.2.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^7.1.6",
+        "gulp": "^3.9.1",
+        "gulp-postcss": "^7.0.0",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-uglify": "^3.0.0",
+        "postcss-csso": "^3.0.0",
+        "pump": "^1.0.2"
+    },
+    "bugs": {
+        "url": "https://github.com/PASSYpw/Waves.js/issues"
+    },
+    "homepage": "https://github.com/PASSYpw/Waves.js#readme"
 }
